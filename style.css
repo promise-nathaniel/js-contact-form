@@ -160,29 +160,3 @@ textarea {
         height: 10em;
     }
 }
-
-@media screen and (min-width: 48em) {
-    #contact-form {
-        text-align: justify;
-        line-height: 0;
-    }
-    #contact-form:after {
-        content: '';
-        display: inline-block;
-        width: 100%;
-    }
-    #contact-form h2 {
-        margin-left: 17.2661%;
-    }
-    #contact-form form,
-    #contact-form aside {
-        vertical-align: top;
-        display: inline-block;
-        width: 65.4676%;
-        text-align: left;
-        line-height: 1.5;
-    }
-    #contact-form aside {
-        width: 30.9353%;
-    }
-}
